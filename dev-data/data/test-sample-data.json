@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "5c8a24b12f8fb814b56fa194",
+    "name": "Maya Thompson",
+    "email": "maya@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-21.jpg",
+    "password": "$2a$12$examplehash1"
+  },
+  {
+    "_id": "5c8a24c22f8fb814b56fa195",
+    "name": "Ethan Brown",
+    "email": "ethan@example.com",
+    "role": "guide",
+    "active": true,
+    "photo": "user-22.jpg",
+    "password": "$2a$12$examplehash2"
+  },
+  {
+    "_id": "5c8a24d32f8fb814b56fa196",
+    "name": "Olivia White",
+    "email": "olivia@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-23.jpg",
+    "password": "$2a$12$examplehash3"
+  },
+  {
+    "_id": "5c8a24e42f8fb814b56fa197",
+    "name": "Liam Johnson",
+    "email": "liam@example.com",
+    "role": "lead-guide",
+    "active": true,
+    "photo": "user-24.jpg",
+    "password": "$2a$12$examplehash4"
+  },
+  {
+    "_id": "5c8a24f52f8fb814b56fa198",
+    "name": "Emma Davis",
+    "email": "emma@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-25.jpg",
+    "password": "$2a$12$examplehash5"
+  },
+  {
+    "_id": "5c8a25062f8fb814b56fa199",
+    "name": "Noah Wilson",
+    "email": "noah@example.com",
+    "role": "guide",
+    "active": true,
+    "photo": "user-26.jpg",
+    "password": "$2a$12$examplehash6"
+  },
+  {
+    "_id": "5c8a25172f8fb814b56fa19a",
+    "name": "Ava Martinez",
+    "email": "ava@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-27.jpg",
+    "password": "$2a$12$examplehash7"
+  },
+  {
+    "_id": "5c8a25282f8fb814b56fa19b",
+    "name": "Lucas Anderson",
+    "email": "lucas@example.com",
+    "role": "lead-guide",
+    "active": true,
+    "photo": "user-28.jpg",
+    "password": "$2a$12$examplehash8"
+  },
+  {
+    "_id": "5c8a25392f8fb814b56fa19c",
+    "name": "Sophia Taylor",
+    "email": "sophia@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-29.jpg",
+    "password": "$2a$12$examplehash9"
+  },
+  {
+    "_id": "5c8a254a2f8fb814b56fa19d",
+    "name": "Mason Thomas",
+    "email": "mason@example.com",
+    "role": "guide",
+    "active": true,
+    "photo": "user-30.jpg",
+    "password": "$2a$12$examplehash10"
+  }
+]

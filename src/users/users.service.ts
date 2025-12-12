@@ -1,6 +1,11 @@
-import { Injectable } from '@nestjs/common';
+import {
+  Injectable,
+  ConflictException,
+  NotFoundException,
+  BadRequestException,
+} from '@nestjs/common';
 import fsp from 'node:fs/promises';
-import { z } from 'zod';
+import { z, ZodError } from 'zod';
 
 const UserSchema = z.object({
   _id: z.string(),
@@ -35,5 +40,30 @@ export class UsersService {
 
   getUsers() {
     return this.users;
+  }
+
+  getUser(id: string) {
+    const user = this.users.find(({ _id }) => _id === id);
+    if (!user) {
+      throw new NotFoundException(`User with id ${id} does not exist!`);
+    }
+    return user;
+  }
+
+  createUser(user: UserDTO) {
+    if (this.users.find(({ _id }) => _id === user._id)) {
+      throw new ConflictException(`User with id ${user._id} already exists!`);
+    }
+    try {
+      UserSchema.parse(user);
+      this.users.push(user);
+      return user;
+    } catch (error) {
+      if (error instanceof ZodError) {
+        throw new BadRequestException(JSON.parse(error.message));
+      } else {
+        throw new BadRequestException(`Invalid inputs!`);
+      }
+    }
   }
 }
