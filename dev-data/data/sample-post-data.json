@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Desert Odyssey",
+    "duration": 8,
+    "maxGroupSize": 25,
+    "difficulty": "medium",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 51,
+    "price": 1699,
+    "summary": "Experience the endless dunes and desert sunsets.",
+    "description": "Camel rides, starry nights, and golden sands. Lorem ipsum dolor sit amet.",
+    "imageCover": "tour-19-cover.jpg",
+    "images": ["tour-19-1.jpg", "tour-19-2.jpg", "tour-19-3.jpg"],
+    "startDates": ["2022-01-12,17:00", "2022-03-25,17:00", "2022-06-18,17:00"]
+  },
+  {
+    "name": "Rainforest Escape",
+    "duration": 4,
+    "maxGroupSize": 12,
+    "difficulty": "easy",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 37,
+    "price": 999,
+    "summary": "Reconnect with nature in lush green rainforests.",
+    "description": "Giant trees, rare birds, and soothing rainfall. Lorem ipsum dolor sit amet.",
+    "imageCover": "tour-20-cover.jpg",
+    "images": ["tour-20-1.jpg", "tour-20-2.jpg", "tour-20-3.jpg"],
+    "startDates": ["2022-02-10,09:00", "2022-04-22,09:00", "2022-07:10,09:00"]
+  },
+  {
+    "name": "Cultural Heritage Tour",
+    "duration": 9,
+    "maxGroupSize": 22,
+    "difficulty": "easy",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 110,
+    "price": 2099,
+    "summary": "Explore ancient temples, traditions, and cuisines.",
+    "description": "Rich culture, historic landmarks, and vibrant markets. Lorem ipsum dolor sit amet.",
+    "imageCover": "tour-21-cover.jpg",
+    "images": ["tour-21-1.jpg", "tour-21-2.jpg", "tour-21-3.jpg"],
+    "startDates": ["2022-01-05,10:00", "2022-03-12,10:00", "2022-05-30,10:00"]
+  },
+  {
+    "name": "Coastal Breeze Retreat",
+    "duration": 6,
+    "maxGroupSize": 17,
+    "difficulty": "easy",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 45,
+    "price": 1399,
+    "summary": "Enjoy serene coastlines and picturesque beach towns.",
+    "description": "Ocean views, fresh seafood, and gentle breezes. Lorem ipsum dolor sit amet.",
+    "imageCover": "tour-22-cover.jpg",
+    "images": ["tour-22-1.jpg", "tour-22-2.jpg", "tour-22-3.jpg"],
+    "startDates": ["2022-02-08,10:00", "2022-04-18,10:00", "2022-06-22,10:00"]
+  },
+  {
+    "name": "Volcano Explorer",
+    "duration": 7,
+    "maxGroupSize": 14,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 68,
+    "price": 1899,
+    "summary": "A thrilling journey across volcanic landscapes.",
+    "description": "Lava fields, hot springs, and unique rock formations. Lorem ipsum dolor sit amet.",
+    "imageCover": "tour-23-cover.jpg",
+    "images": ["tour-23-1.jpg", "tour-23-2.jpg", "tour-23-3.jpg"],
+    "startDates": ["2022-03-03,08:00", "2022-06-10,08:00", "2022-09-15,08:00"]
+  }
+]
